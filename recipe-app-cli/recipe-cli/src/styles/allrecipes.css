@@ -1,0 +1,16 @@
+.container__all-recipes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__all-recipes > h2 {
+    margin-top: 30px;
+}
+
+td > input[type=submit] {
+    background-color: #219ec4;
+    border: none;
+    border-radius: 5px;
+}

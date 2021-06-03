@@ -1,0 +1,57 @@
+.recipe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #0eb085;
+    background-color: #f0f7f5;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+.recipe__container > span {
+    margin: 5% 0 2% 0;
+    font-size: 20px;
+}
+
+.recipe__container > input[type=text] {
+    background: transparent;
+    border: 2px solid #0eb085;
+    border-radius: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.recipe__container > input[type=submit] {
+    margin-top: 10%;
+    border-radius: 30px;
+    border: none;
+    background-color: #e8a70e;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: 0.5s;
+    outline: none;
+}
+
+.recipe__container > input[type=submit]:hover {
+    background-color: #bf8a0b;
+    cursor: pointer;
+}
+
+.recipe__container > textarea {
+    resize: none;
+    font-size: 18px;
+    background: transparent;
+    border: 2px solid #0eb085;
+    border-radius: 30px;
+    padding-left: 10px;
+    outline: none;
+}
